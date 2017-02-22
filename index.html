@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8'>
+	<title>Hangman</title>
+	<link rel='stylesheet' href='/main.css'>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Permanent+Marker">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class='main container'>
+		<div class='board wrapper'>
+			<div class='header'>
+				<div class='hangman'>Hangman!</div>
+				<div class='new-wrapper'><a id='new' href='#'>New Game</a></div>
+			</div>
+		</div>
+		<div class='guesses wrapper'>
+			<div class="label">Guesses left</div>
+			<div id='guesses-left'></div>
+			<div class="label">Bad guesses</div>
+			<div id='bad-guesses'></div>
+		</div>
+		<div id='banner'></div>
+		<div id='word'></div>
+	</div>
+	<div class='loading container'>Loading...</div>
+		<script src='/hangman.js'></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body {
+	position: relative;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.container{
+	width: 600px;
+	margin: 0 auto;
+	white-space: nowrap;
+}
+
+a {
+	text-decoration: none;
+	color: ##75BFA1;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:visited{
+	color: ##75BFA1;
+}
+
+.wrapper {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.main { display: none; }
+
+.board {
+	min-width: 450px;
+}
+
+.header{
+	display: flex;
+	margin-bottom: 100px;
+}
+.hangman {
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: -.05em;
+	width: 50%;
+}
+#banner {
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: -.05em;
+	height: 40px;
+	text-align: center;
+}
+
+.new-wrapper{
+	text-align: right;
+	width: 100%;
+}
+
+.guesses.wrapper {
+	min-width: 150px;
+	text-align: center;
+}
+
+.guesses.wrapper .label, #new {
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #555;
+}
+
+#guesses-left{
+	font-family: 'Permanent Marker';
+	font-size: 24px;
+}
+
+.letter {
+	display: inline;
+	margin-right: 5px;
+	font-family: 'Permanent Marker';
+	font-size: 24px;
+}
+
+#word .letter {
+	font-size: 48px;
+	margin-right:10px;
+}
+
+#word {
+	text-align: center;
+}
+
+.loading {
+	text-align: center;
+	height: 400px;
+	line-height: 400px;
+}
+
